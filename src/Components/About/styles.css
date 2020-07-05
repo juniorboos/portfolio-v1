@@ -1,0 +1,78 @@
+.aboutContainer {
+   display: flex;
+   align-items: center;
+   justify-content: 'space-between';
+   /* border-width: 2px;
+   border-style: solid; */
+}
+
+.aboutTitle {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 42px;
+   display: flex;
+   align-items: center;
+   margin-bottom: 36px;
+   color: #FFE145;
+}
+
+.aboutText {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 23px;
+   /* or 128% */
+
+   display: flex;
+   align-items: center;
+   text-align: justify;
+   color: #FFFFFF;
+   margin-bottom: 23px;
+   margin-right: 50px;
+}
+
+.buttonLearn {
+   background: #1A304A;
+   border: 1px solid #FFE145;
+   box-sizing: border-box;
+   border-radius: 5px;
+   width: 172px;
+   height: 52px;
+   margin-top: 16px;
+
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+
+   color: #FFE145;
+}
+
+.buttonLearn:hover {
+   background: #FFE145;
+   border: 1px solid #FFE145;
+   box-sizing: border-box;
+   border-radius: 5px;
+   width: 172px;
+   height: 52px;
+   margin-top: 16px;
+
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   font-weight: bold;
+
+   color: #000000;
+}
+
+.computerImage {
+   width: 50%;
+}

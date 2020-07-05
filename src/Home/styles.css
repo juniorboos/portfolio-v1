@@ -1,0 +1,121 @@
+.container {
+   width: 100%;
+   max-width: 1120px;
+   height: 94vh;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: 'space-between';
+}
+
+.info {
+   width: 100%;
+}
+
+.picture {
+   max-width: 400px; 
+   max-height: 400px;
+   border-radius: 300px;
+}
+
+.hello {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 42px;
+   display: flex;
+   align-items: center;
+   margin-bottom: 72px;
+   color: #FFE145;
+}
+
+.name {
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 72px;
+   line-height: 88px;
+   align-items: center;
+   text-align: center;
+   align-self: center;
+   color: #FFF;
+}
+
+.role {
+   margin-top: 46px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 28px;
+   display: flex;
+   align-items: center;
+   color: #FFFFFF;
+}
+
+.frame {
+   width: 100%;
+   max-width: 1110px;
+   height: 60vh;
+   margin: 0 auto;
+   display: flex;
+   margin-bottom: 20vh;
+   justify-content: 'space-between';
+   background-color: #1A304A;
+}
+
+.header {
+   height: 6vh;
+   width: 100%;
+   max-width: 1110px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.headerComponent {
+   border-width: 0px;
+   height: 100%;
+   width: 220px;
+   background-color: #0E1E33;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   text-decoration: none;
+   color: #FFF;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+}
+
+.headerComponent:hover {
+   background-color: #ffe045ad; 
+   color: #000;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+}
+
+.active {
+   background-color: #FFE145; 
+   color: #000;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.frameField {
+   margin-top: 6vh;
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   width: 100%;
+}
+

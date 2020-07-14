@@ -52,6 +52,10 @@
    opacity: 1;
 }
 
+.skillItem:focus .overlay {
+   opacity: 1;
+}
+
 .textTitle {
    font-family: Roboto;
    font-style: normal;

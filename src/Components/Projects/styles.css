@@ -1,0 +1,133 @@
+.cards {
+   display: flex;
+   align-items: center;
+   overflow-x: auto;
+   /* justify-content: flex-start; */
+}
+/* 
+.cardContainer::-webkit-scrollbar {
+   display: none;
+ } */
+
+.card {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: transparent;
+   max-height: 90%;
+   min-height: 90%;
+   min-width: 225px;
+   max-width: 225px;
+   margin: 5px;
+   /* border: 1px solid #f1f1f1; */
+   background-color: brown;
+}
+
+/* width */
+.cards::-webkit-scrollbar {
+   width: 10px;
+   height: 7px;
+ }
+ 
+ /* Track */
+ .cards::-webkit-scrollbar-track {
+   background: #122235;
+ }
+ 
+ /* Handle */
+ .cards::-webkit-scrollbar-thumb {
+   background: #FFE145;
+ }
+ 
+ /* Handle on hover */
+ .cards::-webkit-scrollbar-thumb:hover {
+   background: #ffe04586;
+ }
+
+ 
+ .overlay {
+   opacity: 0;
+}
+ .overlayActive {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 1;
+   transition: .5s ease;
+   background-color: #000000e7;
+}
+
+.textItems {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 24px;
+
+   width: 90%;
+   color: white;
+   position: absolute;
+   top: 5%;
+   left: 10%;
+   /* transform: translate(-50%, -50%); */
+   /* -ms-transform: translate(-50%, -50%); */
+ }
+
+.textDesc {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 32px;
+   text-align: justify;
+
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 10%;
+   width: 80%;
+   /* transform: translate(-50%, -50%); */
+   /* -ms-transform: translate(-50%, -50%); */
+ }
+
+.imgProject {
+    max-width: 100%;
+    /* height: 510px; */
+    object-fit: fill; 
+  /* max-width:100%; */
+}
+
+.imageDiv {
+   width:100%;
+   /* max-height: 100%; */
+   /* min-height:90%; */
+   /* border: 1px solid #f1f1f1; */
+   position: relative;
+   /* display:block; */
+   overflow: hidden; 
+ }
+
+
+
+ .checkButton {
+   border-width: 0px;
+   min-height: 56px;
+   max-height: 56px;
+   width: 100%;
+   background-color: #FFE145;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+    ;
+   text-decoration: none;
+   color: #000;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+}

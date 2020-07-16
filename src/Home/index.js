@@ -59,7 +59,7 @@ const Home = () => {
                <div 
                   className="frameField"
                   ref={frameFocus}>
-                  <Route exact path="/" component={About} />
+                  <Route exact path="/portfolio" component={About} />
                   <Route path="/about" component={About} />
                   <Route path="/skills" component={Skills} />
                   <Route path="/projects" component={Projects} />

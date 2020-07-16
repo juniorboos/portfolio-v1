@@ -61,7 +61,7 @@ const Projects = () => {
             'CSS',
             'Node.js'
          ],
-         description: "Project based on the week OmniStack 11 offered by RocketSeat, building a platform to unite NGOs in need of financial support.",
+         description: "Project based on the OmniStack 11 week offered by RocketSeat, building a platform to unite NGOs in need of financial support.",
          url: "https://github.com/juniorboos/omnistack11"
       },
       {

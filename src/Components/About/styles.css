@@ -1,6 +1,7 @@
 .aboutContainer {
    display: flex;
    align-items: center;
+   flex-direction: row;
    justify-content: 'space-between';
    /* border-width: 2px;
    border-style: solid; */
@@ -75,4 +76,11 @@
 
 .computerImage {
    width: 50%;
+}
+
+@media (max-width: 700px) {
+   .computerImage {
+      display: none;
+   }
+   
 }

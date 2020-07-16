@@ -1,0 +1,14 @@
+.containerSocial {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   /* border: 1px solid #f1f1f1; */
+   width: 100%;
+
+}
+
+.socialIcon {
+   width: 200px;
+   height: 200px;
+}

@@ -19,9 +19,9 @@ const options = {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="Home">
       <AlertProvider template={AlertTemplate} {...options}>
-        <Route exact path="/portfolio" component={Home} />
+        <Route exact path="/" component={Home} />
       </AlertProvider> 
     </BrowserRouter>
   );

@@ -1,6 +1,11 @@
 import React, { useState, useRef } from 'react';
 import './styles.css';
 import profilePic from '../assets/profilePic.png';
+import user from '../assets/user.svg';
+import code from '../assets/code.svg';
+import github from '../assets/github.svg';
+import atsign from '../assets/at-sign.svg';
+import mail from '../assets/mail.svg';
 import About from '../Components/About';
 import Skills from '../Components/Skills';
 import Projects from '../Components/Projects';
@@ -14,11 +19,11 @@ const Home = () => {
    const [pageValue, setPageValue] = useState();
 
    const pages = [
-      { name: 'ABOUT', value: '' },
-      { name: 'SKILLS', value: 'skills' },
-      { name: 'PROJECTS', value: 'projects' },
-      { name: 'SOCIAL', value: 'social' },
-      { name: 'CONTACT', value: 'contact' },
+      { name: 'ABOUT', value: '', image: user },
+      { name: 'SKILLS', value: 'skills', image: code },
+      { name: 'PROJECTS', value: 'projects', image: github },
+      { name: 'SOCIAL', value: 'social', image: atsign },
+      { name: 'CONTACT', value: 'contact', image: mail },
    ]
 
    const frameFocus = useRef(null);
@@ -46,7 +51,8 @@ const Home = () => {
                      key={idx}
                      value={page.value}
                      onClick={executeScroll}>
-                        {page.name}
+                        <p className="textIcon">{page.name}</p>
+                        <img className="headerIcon" src={page.image} alt={page.image} />
                   </NavLink>
                ))}
                </header>

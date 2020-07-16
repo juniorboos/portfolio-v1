@@ -1,7 +1,7 @@
 .container {
    width: 100%;
    max-width: 1120px;
-   height: 94vh;
+   height: 94vh ;
    margin: 0 auto;
    display: flex;
    align-items: center;
@@ -81,8 +81,9 @@
    width: 220px;
    background-color: #0E1E33;
    display: flex;
-   justify-content: center;
    align-items: center;
+   justify-content: center;
+   
 
    text-decoration: none;
    color: #FFF;
@@ -99,6 +100,10 @@
    font-style: normal;
    font-weight: 700;
    font-size: 18px;
+}
+
+.headerIcon {
+   display: none;
 }
 
 .active {
@@ -125,6 +130,7 @@
       flex-direction: column;
       padding-left: 18px;
       padding-right: 18px;
+      height: 83vh ;
    }
    .picture {
       width: 80%;
@@ -135,15 +141,34 @@
    .hello {
       margin-bottom: 36px;
    }
+   .name {
+      font-size: 48px;
+      line-height: 56px;
+   }
    .role {
       margin-top: 36px;
    }
    .frame {
-      height: 100vh;
+      height: -webkit-fill-available;
       margin-bottom: 0vh;
    }
    .frameField {
-      padding: 18px
+      margin-top: 10vh;
+   }
+   .header {
+      height: 10vh;
+   }
+   .textIcon {
+      display: none;
+   }
+   .headerIcon {
+      display: flex;
+      stroke: white;
+      width: 40%;
+      filter: invert(100%) sepia(6%) saturate(0%) hue-rotate(70deg) brightness(108%) contrast(108%);
+   }
+   .active {
+      background-color: #d3b520;
    }
 }
 

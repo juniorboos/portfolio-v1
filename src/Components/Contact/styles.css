@@ -24,7 +24,7 @@ input:focus, textarea:focus {
 
 .inputForm {
    padding-left: 18px;
-   height: 48px;
+   height: 64px;
    width: 100%;
    border-width: 0px;
    border-radius: 20px;
@@ -36,6 +36,7 @@ input:focus, textarea:focus {
    padding: 18px;
    /* padding: 18px; */
    resize: none;
+   height: 100%;
    width: 100%;
    border-width: 0px;
    border-radius: 20px;
@@ -91,4 +92,13 @@ input:focus, textarea:focus {
 
 .buttonSubmit:hover {
    background-color: #ffe045ad; 
+}
+
+@media (max-width: 700px) {
+   .formContainer {
+      justify-content: space-evenly;
+   }
+   .buttonSubmit {
+      height: 64px;
+   }
 }

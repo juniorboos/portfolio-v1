@@ -50,10 +50,12 @@
 
 .skillItem:hover .overlay {
    opacity: 1;
+   outline: none;
 }
 
 .skillItem:focus .overlay {
    opacity: 1;
+   outline: none;
 }
 
 .textTitle {
@@ -66,10 +68,10 @@
    width: 80%;
    color: white;
    position: absolute;
-   top: 10%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
+   top: 5%;
+   left: 10%;
+   /* transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%); */
  }
 
 .textBody {
@@ -82,9 +84,37 @@
 
    color: white;
    position: absolute;
-   top: 50%;
-   left: 50%;
+   top: 40%;
+   left: 10%;
    width: 80%;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
- }
+   /* transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%); */
+}
+
+
+@media (max-width: 700px) {
+   .label {
+      display: none;
+   }
+   .skillsCards {
+      flex-direction: column;
+      height: 100%;
+      overflow: hidden;
+   }
+   .skillItem {
+      width: 100%;
+      height: 25%;
+      /* border: 1px solid white; */
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .imageSkill {
+      align-items: center;
+      object-fit: cover;
+      width: 100%;
+      /* transform: translate(0%, -35%); */
+      /* -ms-transform: translate(0%, -50%); */
+   }
+}

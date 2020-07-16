@@ -78,9 +78,19 @@
    width: 50%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 820px) {
    .computerImage {
       display: none;
    }
+   .aboutText {
+      margin-right: 0px;
+   }
+   .aboutContainer {
+      padding: 18px;
+   }
    
 }
+/* 
+@media (max-width: 700px) {
+   
+} */

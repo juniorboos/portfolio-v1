@@ -14,7 +14,7 @@ const Skills = () => {
          </div>
          <div className="skillsCards">
             <div className="skillItem" tabIndex="1">
-               <img src={react} alt="react" />
+               <img src={react} alt="react" className="imageSkill" />
                <div className="overlay">
                   <div className="textTitle">React</div>
                   <div className="textBody">
@@ -24,7 +24,7 @@ const Skills = () => {
                </div>
             </div>
             <div className="skillItem" tabIndex="2">
-               <img src={photoshop} alt="photoshop" />
+               <img src={photoshop} alt="photoshop" className="imageSkill" />
                <div className="overlay">
                   <div className="textTitle">Photoshop</div>
                   <div className="textBody">
@@ -35,14 +35,12 @@ const Skills = () => {
                </div>
             </div>
             <div className="skillItem" tabIndex="3">
-               <img src={reactIonic} alt="reactIonic" />
+               <img src={reactIonic} alt="reactIonic" className="imageSkill"/>
                <div className="overlay">
                   <div className="textTitle">
-                     <p>React Native</p>
-                     <p>Ionic</p>
+                     <p>React Native & Ionic</p>
                   </div>
                   <div className="textBody">
-                     <p>Project for KLABIN</p>
                      <p>Master's thesis</p>
                      <p>Hackatons</p>
                      <p>Personal projects</p>
@@ -51,7 +49,7 @@ const Skills = () => {
             </div>
             
             <div className="skillItem" tabIndex="4">
-            <img src={uxdesign} alt="uxdesign" />
+            <img src={uxdesign} alt="uxdesign" className="imageSkill"/>
                <div className="overlay">
                   <div className="textTitle">UX Design</div>
                   <div className="textBody">

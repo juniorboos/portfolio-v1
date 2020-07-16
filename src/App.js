@@ -21,7 +21,7 @@ function App() {
   return (
     <BrowserRouter>
       <AlertProvider template={AlertTemplate} {...options}>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Home} />
       </AlertProvider> 
     </BrowserRouter>
   );

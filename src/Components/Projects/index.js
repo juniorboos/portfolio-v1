@@ -68,7 +68,6 @@ const Projects = () => {
          image: nextlevel,
          technologies: [
             'React.js',
-            'CSS',
             'Node.js',
             'React Native',
             'SQLite'

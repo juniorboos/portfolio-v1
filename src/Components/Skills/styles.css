@@ -117,4 +117,10 @@
       /* transform: translate(0%, -35%); */
       /* -ms-transform: translate(0%, -50%); */
    }
+   .textTitle {
+      top: 50%;
+   }
+   .textBody {
+      display: none;
+   }
 }

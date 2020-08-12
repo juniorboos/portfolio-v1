@@ -37,7 +37,7 @@ const Home = () => {
                <h2 className="hello">Hello, I'm</h2>
                <h1 className="name">Milton Boos</h1>
                <h1 className="name">Junior</h1>
-               <h2 className="role">Web developer</h2>
+               <h2 className="role">Web and Mobile developer</h2>
             </div>
             
          </div>

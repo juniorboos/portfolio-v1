@@ -16,7 +16,19 @@
    height: auto;
 }
 
-@media (max-width: 700px) {
+
+
+@media (max-height: 770px) and (min-width: 700px){
+   .containerSocial {
+      max-height: 100%;
+   }
+   .socialIcon {
+      height: 40%;
+      width: auto;
+   }
+}
+
+@media (max-width: 700px){
    .containerSocial {
       max-height: 100%;
    }
@@ -25,3 +37,4 @@
       width: 40%;
    }
 }
+

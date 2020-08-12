@@ -112,6 +112,41 @@
     }
    
 }
+
+@media (max-height: 800px) {
+   .computerImage {
+      display: none;
+   }
+   .aboutText {
+      margin-right: 0px;
+   }
+   .aboutContainer {
+      padding: 18px;
+      align-items: flex-start;
+      overflow-y: auto;
+   }
+
+   .aboutContainer::-webkit-scrollbar {
+      width: 10px;
+      height: 7px;
+    }
+    
+    /* Track */
+    .aboutContainer::-webkit-scrollbar-track {
+      background: #122235;
+    }
+    
+    /* Handle */
+    .aboutContainer::-webkit-scrollbar-thumb {
+      background: #FFE145;
+    }
+    
+    /* Handle on hover */
+    .aboutContainer::-webkit-scrollbar-thumb:hover {
+      background: #ffe04586;
+    }
+   
+}
 /* 
 @media (max-width: 700px) {
    

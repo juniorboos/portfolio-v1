@@ -131,7 +131,7 @@
       padding-left: 18px;
       padding-right: 18px;
       margin-top: -10vh;
-      height: -webkit-fill-available;
+      /* height: -webkit-fill-available; */
    }
    .picture {
       width: auto;
@@ -156,7 +156,7 @@
       margin-top: 18px;
    }
    .frame {
-      height: -webkit-fill-available;
+      height: 96vh;
       margin-bottom: 0vh;
    }
    .frameField {

@@ -37,15 +37,18 @@ const Contact = () => {
 
    return (
       <form onSubmit={handleSubmit} className="formContainer">
-         <div>
+         <div className="marginFields">
             <h2 className="labelForm">Email</h2>
             <input type="email" name="email" value={email} onChange={handleChangeEmail} className="inputForm"/>
          </div>
-         <div>
+         <div className="marginFields">
             <h2 className="labelForm">Message</h2>
             <textarea name="message" cols="30" rows="10" value={message} onChange={handleChangeMessage} className="textAreaForm"/>
          </div>
-         <button type="submit" className="buttonSubmit"> SEND </button>
+         <div className="marginFields">
+            <button type="submit" className="buttonSubmit"> SEND </button>
+         </div>
+         
       </form>
    );
 }

@@ -99,7 +99,7 @@ const Projects = () => {
    ]
 
    function handleFocusClick(value) {
-      if (cardFocus == value) {
+      if (cardFocus === value) {
          setCardFocus();
       } else {
          setCardFocus(value);
@@ -112,7 +112,7 @@ const Projects = () => {
             <div className="card" key={idx}>
                <div className="imageDiv" onClick={() => handleFocusClick(idx)}>
                   <img className="imgProject" src={project.image} alt={project.image} />
-                  <div className={cardFocus == idx ? 'overlayActive' : 'overlay'}>
+                  <div className={cardFocus === idx ? 'overlayActive' : 'overlay'}>
                      <div className="textItems">
                         {project.technologies.map((tech, i) => (
                            <p key={i}>{tech}</p>

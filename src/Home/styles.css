@@ -179,3 +179,10 @@
    }
 }
 
+@media (max-height: 700px) and (min-width: 700px) {
+   .frame {
+      height: 80vh;
+      margin-bottom: 10vh;
+   }
+}
+

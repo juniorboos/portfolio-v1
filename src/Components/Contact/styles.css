@@ -15,7 +15,7 @@
    font-weight: 700;
    font-size: 18px;
    margin-top: 24px;
-   margin-bottom: 12px;
+   margin-bottom: 18px;
 }
 
 input:focus, textarea:focus {
@@ -29,7 +29,7 @@ input:focus, textarea:focus {
 
 .inputForm {
    padding-left: 18px;
-   height: 64px;
+   height: 56px;
    width: 100%;
    border-width: 0px;
    border-radius: 20px;
@@ -126,5 +126,17 @@ input:focus, textarea:focus {
    }
    .buttonSubmit {
       height: 64px;
+   }
+}
+
+
+@media (max-height: 700px) and (min-width: 700px) {
+   .buttonSubmit {
+      margin-top: 12px;
+      margin-bottom: 12px;
+   }
+   .labelForm {
+      margin-top: 18px;
+      margin-bottom: 12px;
    }
 }

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 import './styles.css';
 import profilePic from '../assets/profilePic.png';
 import user from '../assets/user.svg';
@@ -16,7 +16,6 @@ import { NavLink, Route, HashRouter } from 'react-router-dom';
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
 
 const Home = () => {
-   const [pageValue, setPageValue] = useState();
 
    const pages = [
       { name: 'ABOUT', value: '', image: user },
